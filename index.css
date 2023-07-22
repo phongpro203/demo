@@ -1,7 +1,35 @@
-button {
-    background-color: blue;
+html{
+    font-family: Tahoma, Helvetica, Arial, sans-serif !important;
+}
+.navbar{
+    height: 35px;
+    width: 950px;
+    background-color: #2869b8;
+
+}
+.navbar .menu{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+}   
+.navbar .menu li{
     color: white;
 }
-body {
-    background-color: brown;
+.navbar .menu a{
+    line-height: 35px;
+}
+h3{
+    color: red;
+}
+h2{
+    color: blue;
+}
+.c1{
+    width: 300px;
+}
+.c2{
+    width: 200px;
+}
+.c3{
+    width: 150;
 }
